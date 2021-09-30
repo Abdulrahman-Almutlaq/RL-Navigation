@@ -25,7 +25,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 On the other hand the model was developed using Pytorch, and the architecture of the model consists of four layers, and batch normalization. 
 
-The model developed avereged a score of 13 over 523 episodes of training! (1000 timesteps per episode in our case)
+The model developed avereged a score of 13 over 537 episodes of training! (1000 timesteps per episode in our case)
 
 
 ## Getting started
@@ -41,7 +41,9 @@ In order to run the model, we need to set the enviroment first:
     *(For Windows users)* Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     *(For AWS)* If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
-1. Place the file in the *same folder of this repository* (after you clone it or downlowd it), and unzip (or decompress) the file. 
+1. Place the file in the *same folder of this repository* (after you clone it or downlowd it), and unzip (or decompress) the file.
+
+1. Follow [this](https://github.com/udacity/deep-reinforcement-learning) guide in order to set up a python enviroment, under *Dependencies* section.
 
 ## Running the agent
 
