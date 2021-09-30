@@ -45,4 +45,4 @@ In order to run the model, we need to set the enviroment first:
 
 ## Running the agent
 
-> In order to run the agent, you should run <span style="padding: .05em .15em; background-color:gray">Navigation.ipynb</span> with commenting the training cell, unless you want to train your own model.
+In order to run the agent, you should run <span style="padding: .05em .15em; background-color:gray">Navigation.ipynb</span> with commenting the *training cell*, unless you want to train your own model.
