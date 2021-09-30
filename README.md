@@ -23,7 +23,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 * <span style="padding: .2em .4em; background-color:gray">3</span> - turn right.
 
 
-On the other hand the model was developed using Pytorch, and the architecture of the model consists of four layers, and batch normalization. 
+On the other hand the model was developed using Pytorch, and the architecture of the model consists of five layers, and batch normalization. 
 
 The model developed avereged a score of 13 over 537 episodes of training! (1000 timesteps per episode in our case)
 
